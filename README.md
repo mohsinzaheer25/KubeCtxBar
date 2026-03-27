@@ -216,13 +216,55 @@ defaults delete com.kubectx.app
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! We follow a fork and pull request workflow.
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+### Quick Start
+
+```bash
+# 1. Fork this repository on GitHub (click "Fork" button)
+
+# 2. Clone your fork
+git clone https://github.com/YOUR_USERNAME/KubeCtxBar.git
+cd KubeCtxBar
+
+# 3. Add upstream remote
+git remote add upstream https://github.com/mohsinzaheer25/KubeCtxBar.git
+
+# 4. Create a feature branch
+git checkout -b feature/your-feature-name
+
+# 5. Make your changes and test
+swift build
+swift test
+
+# 6. Commit your changes
+git add .
+git commit -m "Add: your feature description"
+
+# 7. Push to your fork
+git push origin feature/your-feature-name
+
+# 8. Open a Pull Request on GitHub
+```
+
+### Guidelines
+
+- **Test your changes** - Run `swift test` before submitting
+- **Follow the code style** - Match the existing code patterns
+- **Keep PRs focused** - One feature or fix per PR
+- **Write clear commit messages** - Use prefixes like `Add:`, `Fix:`, `Update:`
+- **Update documentation** - If your change affects usage, update the README
+
+### Syncing Your Fork
+
+```bash
+git fetch upstream
+git checkout main
+git merge upstream/main
+git push origin main
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
