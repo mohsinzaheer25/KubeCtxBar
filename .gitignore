@@ -1,0 +1,55 @@
+# Build artifacts
+.build/
+.swiftpm/
+Build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Cursor IDE
+.cursor/
+
+# App bundles (built locally)
+*.app/
+
+# Icon source files (keep only .icns)
+AppIcon.iconset/
+
+# Release artifacts (uploaded to GitHub releases)
+releases/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Swift Package Manager
+Packages/
+Package.pins
+.swiftpm/
+
+# CocoaPods (if ever used)
+Pods/
+
+# Carthage (if ever used)
+Carthage/Build/
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
