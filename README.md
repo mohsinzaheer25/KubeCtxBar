@@ -273,4 +273,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Inspired by [kubectx](https://github.com/ahmetb/kubectx)
-- Built with SwiftUI and ❤️
+- Built with SwiftUI and ❤️ for Kubernetes
