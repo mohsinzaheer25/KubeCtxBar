@@ -32,6 +32,12 @@ curl -fsSL https://raw.githubusercontent.com/mohsinzaheer25/KubeCtxBar/main/scri
 ### Using Homebrew
 
 ```bash
+brew install --cask mohsinzaheer25/tap/kubectx-bar
+```
+
+Or tap first, then install:
+
+```bash
 brew tap mohsinzaheer25/tap
 brew install --cask kubectx-bar
 ```
